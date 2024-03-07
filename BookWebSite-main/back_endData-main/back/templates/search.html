@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arama Sayfası</title>
+</head>
+<body>
+
+    <h1>Arama Sayfası</h1>
+
+    <form action="{% url 'search' %}" method="GET">
+        <label for="search">Ara:</label>
+        <input type="text" id="search" name="q" placeholder="Arama kelimesini girin">
+        <button type="submit">Ara</button>
+    </form>
+
+    {% if result %}
+        <h2>Arama sonucu</h2>
+        <p>
+            {{ result }}
+        </p>
+    {% endif %}
+
+    <script>
+        $(function() {
+            $('#search').keyup(function() {
+                if ($(this).val() !== '') {
+                    $('#result').show();
+                } else {
+                    $('#result').hide();
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

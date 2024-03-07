@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  body{
+    height: 200vh;
+    background-color:   chocolate;
+    overflow-x: hidden;
+}
+.d-flex {
+  display: flex;
+}
+
+  .deneme,
+  .home,
+  .services,
+  .favorilerimnavbar,
+  .contact-us,
+  .sign-up,
+  .kategori2,
+  .okuduklarım,
+  .okuyacaklarım,
+  .logOut,
+  .support,
+  .favorites,
+  .kategori1 {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+  }
+  
+  .okuduklarım{
+    height: 850px;
+    width: 100;
+    background-color: black;
+  }
+  .hakkımız{
+    margin-top: 10vh;
+    display: flex;
+  
+  }
+  .vizyonmisyon{
+    width: 1450px;
+    max-height: 350px;
+    margin: 1rem;
+    box-shadow: 4px 0px 5px rgba(0, 0, 0, 1);
+    overflow: hidden;
+  }
+  .misyon{
+    width: 50px;
+    max-height: 50px;
+    margin: 1rem 5rem;
+  }
+  .vizyon{
+    width: 50px;
+    max-height: 50px;
+    margin: 0rem 60rem;
+    
+  }
+ .ulas{
+    width: 50px;
+    max-height: 1px;
+    margin: 15rem 3rem;
+
+  }
+  .okuduk{
+    width: 50px;
+    height: 50px;
+    max-height: 1px;
+    margin-bottom: 95vh;
+    margin-right:160vh;
+    
+  }
+  .vizyonmisyon-info{
+    width: 1450px;
+    height:1020px;
+    margin: 1rem  4rem;
+    margin-top: -15vh;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .yazı{
+    width: 950px;
+    height:150px;
+    margin: 0rem  20rem 3rem;
+    margin-top: -5vh;
+  }
+  .yazıvizyon{
+    width: 950px;
+    height:150px;
+    margin: 0rem  2rem;
+    margin-top: -5vh; 
+  }
+  .yazıulas{
+    width: 950px;
+    height:150px;
+    margin: 0rem  20rem;
+    margin-top: -60vh; 
+  }
+  .vizyonmisyon-info h3 {
+   padding: 2rem 4rem ;
+  }
+  .vizyonmisyon-info h4 {
+    padding: 0rem 4rem ;
+      }
+  .renklen{
+    width: 1345px;
+    height:250px;
+    margin: -30vh;
+    margin-left: 64px;
+    background-color: rgba(9, 35, 130, 0.5);
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 1);
+    color: #fff;
+
+  }
+  .renklen h1{
+    margin: 1rem  4rem;
+  }
+  
+  .renklen .link{
+     color: white;
+     margin-top: -10vh;
+     margin-left: 5rem;
+     
+  }
+  
+  .renklen  p{
+    color: white;
+    margin-top: -2.5vh;
+    margin-left: 9.3rem;
+    
+ }
+ .renklen  p .link{ 
+  color: white;
+  margin-top: -2.5vh;
+  margin-left: 0.5rem;
+  
+}
+.social-platform1{
+  font-size: 14px;
+  color: blue;
+  margin-top: 2vh;
+  margin-left: 6vh;
+ 
+  
+}
+.social-icons1 a {
+   display:  inline-block; 
+  width: 35px;
+  height:35px ;
+  background:  #fff;
+  border: 1px solid #373b69;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  margin: 15px 6px 0 ;
+     text-decoration:none ;
+  
+}
+.social-icons1 a  i{
+  color: navy;
+  font-size: 14px;
+  transition: .3s;
+}
+.social-icons1 a:hover{
+  background: #fff    ;
+}
+.social-icons1 a:hover i{
+color: red;
+}
+.social-icons1 h4 {
+  margin-top: -4vh;
+  color: black;
+ 
+}
+  /* api kısmını deneme */
+  :root{
+    --primary-color:#22254b;
+    --secondary-color:#373b69;
+  }
+  main{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .slider{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1470px;
+    margin-left: 0px;
+  }
+  .movie{
+    width: 200px;
+    height: 350px;
+    margin: 1rem;
+    background:var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 1);
+    overflow:hidden;
+  }
+  .movie img{
+    width: 100%;
+    height: 70%;
+  }
+ .movie-info{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem .2rem;
+ }
+
+ .movie-info h3{
+   margin-top: 0;
+   font-size: 15px;
+ }
+ .movie-info span{
+  background: var(--primary-color);
+  padding: .25rem .5rem;
+  border-radius: 4px;
+ }
+ .movie-info button {
+  background: var(--primary-color);
+  padding: .25rem .5rem;
+  border-radius: 4px;
+ }
+ .movie-info span.green{
+  color: lightgreen;
+ }
+ .movie-info span.orange{
+  color: lightsalmon;
+ }
+ .movie-info span.red{
+  color: red;
+ }
+ .overview{
+  background: #fff;
+  padding: .1rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 5%;
+  transform: translateY(140%);
+  transition: transform .3s ease-in;
+ }
+ .overview2{
+  background: #fff;
+  padding: .1rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(140%);
+  transition: transform .3s ease-in;
+ }
+ .movie:hover .overview{
+  transform: translateY(-50%);
+ }
+ .movie:hover .overview2{
+  transform: translateY(-50%);
+ }
+/*api deneme biter boş div kısmı biter*/
+  /* .search3{
+  position: relative;
+ margin-bottom: -135vh;
+  max-height: 35px;
+  background-color: #fff;
+ }   */
+ .input-box2 .icon2{
+  position: absolute;
+  right: 20px;
+  top:195%;
+  transform: translateY(-50%); 
+  font-size: 16px;
+  color: black;
+ 
+}
+ .input-box2{
+  position: relative;
+  width: 40%; 
+  height: 50px; 
+  margin-bottom: 525vh;
+  color: black;
+} 
+
+.input-box2 input {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(238, 239, 243, 0.5);
+  border:none ;
+  outline: none;
+  border: 2px solid rgb(200, 10, 10,0.7); 
+  border-radius: 20px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+
+
+}
+.input-box2 input::placeholder{
+  color: black;
+} 
+
+.sonuçgöster{
+  color: #fff;
+ padding: 5px 15px;
+  font-size: 35px;
+}
+
+  .home {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    object-fit: cover; 
+    position: relative;
+    margin-top: 100px; 
+    
+  }
+
+  .video{
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    object-fit: cover; 
+    position: relative;
+    margin-top: -30px; 
+    z-index: -10000;
+    width: 100%;
+  }
+  
+
+  
+ /* .services {
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./images/img-3.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact-us {
+    background-image: url('./images/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('./images/img-7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .marketing {
+    background-image: url('./images/img-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .consulting {
+    background-image: url('./images/img-5.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }*/
